@@ -15,7 +15,7 @@ const Hero = () => (
           <Link href="https://junction-project.vercel.app/">GitHub</Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="/xd">Sign in</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -24,14 +24,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
+            {'The example landing page for\n'}
             <span className="text-primary-500">React developers forever</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Let's ducking win the junction."
         button={
           <Link href="https://youtu.be/dQw4w9WgXcQ?si=vsGoac_9ahIndKTF">
-            <Button xl>More Malboro and cash</Button>
+            <Button xl>win 500$ and a pack of Malboro</Button>
           </Link>
         }
       />
