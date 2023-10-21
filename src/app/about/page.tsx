@@ -13,12 +13,12 @@ import { StatList, StatListItem } from '@/components/StatList'
 import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
 import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
 import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
-import imageDriesVincent from '@/images/team/dries-vincent.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
+import javiimage from '@/images/team/javi.jpeg'
+import franimage from '@/images/team/fran.jpeg'
+import expeimage from '@/images/team/expe.jpeg'
+import lorenzoimage from '@/images/team/lorenzo.jpeg'
+import maherimage from '@/images/team/maher.jpeg'
+import teamimage from '@/images/team/equipo.jpeg'
 import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
 import imageMichaelFoster from '@/images/team/michael-foster.jpg'
 import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
@@ -58,72 +58,37 @@ function Culture() {
 
 const team = [
   {
-    title: 'Leadership',
+    title: 'Equipo',
     people: [
       {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        image: { src: imageLeslieAlexander },
+        name: 'Expe Avomo',
+        role: 'Data and bussiness consultant',
+        image: { src: expeimage },
       },
       {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
+        name: 'Fran Fernandez',
+        role: 'Bussiness manager',
+        image: { src: franimage },
       },
       {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
-    ],
-  },
-  {
-    title: 'Team',
-    people: [
-      {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
+        name: 'Javier Blanco',
+        role: 'CTO and software engineer',
+        image: { src: javiimage },
       },
       {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
+        name: 'Lorenzo Velasco',
+        role: 'COO and mobile lead',
+        image: { src: lorenzoimage },
       },
       {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
+        name: 'Maher bouymejan',
+        role: 'ML expert',
+        image: { src: maherimage },
       },
       {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
+        name: 'Conqueror Brothers',
+        role: `Junction Winners 😎`,
+        image: { src: teamimage },
       },
     ],
   },
@@ -220,15 +185,6 @@ export default async function About() {
       <Culture />
 
       <Team />
-
-      <PageLinks
-        className="mt-24 sm:mt-32 lg:mt-40"
-        title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
-        pages={blogArticles}
-      />
-
-      <ContactSection />
     </>
   )
 }
