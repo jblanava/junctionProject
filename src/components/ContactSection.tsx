@@ -16,8 +16,8 @@ export function ContactSection() {
             <div className="mt-6 border-t border-white/10 pt-8">
               <span className="font-display text-base text-white">
                 Recopilamos datos anónimos para mejorar la experiencia del
-                cliente y la rentabilidad de los negocios y datos voluntarios
-                que reducen el spam y la publicidad irrelevante
+                cliente y la rentabilidad de los negocios así como datos
+                voluntarios que reducen el spam y la publicidad irrelevante
               </span>
             </div>
           </div>

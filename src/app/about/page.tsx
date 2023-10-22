@@ -87,7 +87,7 @@ const team = [
       },
       {
         name: 'Conqueror Brothers',
-        role: `Junction Winners 😎`,
+        role: `Vota por nosotros (pls 🙏)`,
         image: { src: teamimage },
       },
     ],
@@ -144,9 +144,8 @@ function Team() {
 }
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
+  title: ' Sobre nosotros',
+  description: 'Nuestra fortaleza es el trabajo en equipo.',
 }
 
 export default async function About() {
@@ -154,35 +153,17 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro
+        eyebrow="Sobre nosotros"
+        title="Nuestra fortaleza es el trabajo en equipo."
+      >
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Somos un equipo multiudisciplinar con pasión por crear cosas nuevas,
+          desde el primer minuto que fromamos el grupo las ideas y el buen rollo
+          empezaron a fluir y, creemos, que esa vibra la hemos transimitido en
+          nuestro trabajo.
         </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
-          </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
-        </div>
       </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList>
-      </Container>
-
-      <Culture />
 
       <Team />
     </>

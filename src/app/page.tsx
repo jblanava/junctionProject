@@ -65,13 +65,14 @@ function Services() {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow="Servicios"
+        title="Ayudamos a identificar, explorar y responder a nuevas tendencias y oportunidades."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Analizamos la respuesta de los clientes ante escaparates, expositorios
+          de productos y otras formas de publicidad para entender qué resulta
+          interesante y qué no.
         </p>
       </SectionIntro>
 
@@ -87,24 +88,23 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Tecnología de vanguardia">
+              Utilizamos técnicas de machine learning, reconocimiento de gestos
+              y neuromarketing para identificar intenciones e intereses.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Experiencia del cliente">
+              Utilizamos los datos para hacer más interesantes la experiencia
+              del usuario en los expositores y reducimos la publicidad genérica.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Insights para las empresas">
+              Con los mapas de calor obtenidos del análisis se mejora la
+              disposición de prpoductos en los escaparates y se segmenta de
+              manera eficaz la publicidad dirigida.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Integración con otras soluciones">
+              La herramienta Diana puede integrarse con otros aplicaciones,
+              elementos de gamificación y eventos para potenciar la
+              interactividad de los clientes con los entornos comerciales.
             </ListItem>
           </List>
         </div>
