@@ -148,7 +148,7 @@ export default async function Home() {
             DIANA
           </h1>
           <h2 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            A showcase digitizer.
+            Anuncios que dan en la diana
           </h2>
           <p className="mt-6 text-xl text-neutral-600">
             Diana es una herramienta que permite a las empresas digitalizar y
