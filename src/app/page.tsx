@@ -89,7 +89,7 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Tecnología de vanguardia">
-              Utilizamos técnicas de machine learning, reconocimiento de gestos
+              Utilizamos técnicas de machine learning, reconocimiento de pupilas
               y neuromarketing para identificar intenciones e intereses.
             </ListItem>
             <ListItem title="Experiencia del cliente">
