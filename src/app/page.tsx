@@ -10,6 +10,7 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 import { ContactSection } from '@/components/ContactSection'
+import heatmap from '@/images/team/heatmap.jpeg'
 
 function CaseStudies({
   caseStudies,
@@ -91,15 +92,33 @@ function Services() {
             <ListItem title="Tecnología de vanguardia">
               Utilizamos técnicas de machine learning, reconocimiento de pupilas
               y neuromarketing para identificar intenciones e intereses.
+              <iframe
+                className="mt-8 "
+                width="90%"
+                height="90%"
+                src="https://www.youtube.com/embed/FmTYnwKCvrM?si=eYDrYegVq76Rwhpe"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </ListItem>
             <ListItem title="Experiencia del cliente">
               Utilizamos los datos para hacer más interesantes la experiencia
               del usuario en los expositores y reducimos la publicidad genérica.
             </ListItem>
             <ListItem title="Insights para las empresas">
-              Con los mapas de calor obtenidos del análisis se mejora la
-              disposición de productos en los escaparates y se segmenta de
-              manera eficaz la publicidad dirigida.
+              <span>
+                Con los mapas de calor obtenidos del análisis se mejora la
+                disposición de productos en los escaparates y se segmenta de
+                manera eficaz la publicidad dirigida.
+              </span>
+
+              <Image
+                alt=""
+                src={heatmap}
+                className="mt-10 h-72 w-fit rounded-2xl object-cover transition duration-500 motion-safe:group-hover:scale-105 sm:h-96"
+              />
             </ListItem>
             <ListItem title="Integración con otras soluciones">
               La herramienta Diana puede integrarse con otros aplicaciones,
