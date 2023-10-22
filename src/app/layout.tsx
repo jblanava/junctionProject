@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Diana',
-    default: 'Diana - a showcase digitizer',
+    default: 'Diana - anuncios que dan en la diana',
   },
 }
 
