@@ -98,7 +98,7 @@ function Services() {
             </ListItem>
             <ListItem title="Insights para las empresas">
               Con los mapas de calor obtenidos del análisis se mejora la
-              disposición de prpoductos en los escaparates y se segmenta de
+              disposición de productos en los escaparates y se segmenta de
               manera eficaz la publicidad dirigida.
             </ListItem>
             <ListItem title="Integración con otras soluciones">
